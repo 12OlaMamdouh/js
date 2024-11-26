@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote</title>
+    <!-----*****Font Google*****---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!------bootstrap css------>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!------FontAwesome--------->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!------Link CSS----------->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<div class="quote container py-5 mt-5">
+    <div class="row text-center">
+        <div class="col-12">
+          <div class="inner">
+            <h1 class="fw-bold"> Quote of the Day</h1>
+            <p class="lh-4">Press the button below to recieve a random quote!</p>
+          <button onclick="AddQuote()" class=" btn text-light fw-bold border-0 p-3 mb-4 shadow-3"> New Quotes </button>
+          <p class="h-100 py-4 fw-bold fs-4" id="quote"></p>
+          <h2 class="h-100 py-4" id="author"></h2>
+          </div>
+        </div> 
+    </div>
+</div>
+    <!-------bootstrap js------>
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
+    <!-------Link JS-------->
+    <script src="js/index.js"></script>
+</body>
+</html>
